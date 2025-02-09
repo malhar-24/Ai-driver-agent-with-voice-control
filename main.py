@@ -4,7 +4,7 @@ import google.generativeai as genai
 import json  # Use JSON for safe parsing
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyAH3_N2xuxONKeB6ugQAR23LOc-zAb3qq4")
+genai.configure(api_key="ENTER_YOUR_API")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Initialize position variables
